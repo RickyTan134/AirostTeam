@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleguest.css"/>
+
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -25,14 +25,12 @@
       min-height: auto; /* Adjust this value based on your design */
       background-color: darkcyan;
      }
-
      .word {
       font-size: 20px; /* Adjust the font size for mobile */
       padding: 10px;
       text-align: center; /* Center the text */
       color: white;
      }
-
      .btn-group {
        padding: 10px;
        text-align: center; /* Center the buttons */
@@ -41,7 +39,7 @@
       .card {
           position: relative;
           width: 200px;
-          height: 300px;
+          height: 450px;
           border: 1px solid #ccc;
           border-radius: 10px;
           overflow: hidden;
@@ -49,6 +47,8 @@
       }
       .card-content {
           padding: 25px;
+          font-size:large;
+          font-weight:bold;
       }
       .card:hover {
           transform: scale(1.05);
@@ -160,18 +160,15 @@
   box-sizing: border-box;
   background-color:#111;
 }
-
 .footer-container{
   width: 100%;
   padding: 70px 30px 20px;
   background-color: #111;
 }
-
 .socialIcons{
   display: flex;
   justify-content:center;
 }
-
 .socialIcons a{
   text-decoration: none;
   padding: 10px;
@@ -179,33 +176,26 @@
   margin: 10px;
   border-radius: 50%;
 }
-
 .socialIcons a i{
   font-size: 2;
   color: black;
   opacity: 0.9;
-
 }
-
 .socialIcons a:hover{
   background-color: #111;
   transition: 0.5s;
 }
-
 .socialIcons a:hover i{
   background-color: white;
   transition: 0.5s;
 }
-
 .footerNav{
   margin:30px 0;
 }
-
 .footerNav ul{
   display:flex;
   justify-content:center;
 }
-
 .footerNav ul li a{
   color:white;
   margin:20px;
@@ -214,17 +204,14 @@
   opacity: 0.7;
   transition:0.5s
 }
-
 .footerNav ul li a:hover{
   opacity:1;
 }
-
 .footerBottom{
   background-color: #322e2e;
   padding: 20px;
   text-align: center;
 }
-
 .footerBottom p{
   color: white;
 }
@@ -235,7 +222,6 @@
   font-weight:400;
   margin: 0px 5px;
 }
-
 @media (max-width:700px){
   .footerNav ul{
     flex-direction: column;
@@ -250,7 +236,6 @@
     text-align: center;
   }
 }
-
     
      </style>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -260,8 +245,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
-
+    <title>Guest</title>
 </head>
 <body style="background-color:honeydew">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -273,7 +257,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/Starter.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/Starter.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -283,6 +267,8 @@
                   <li><a class="dropdown-item" href="#">Muar</a></li>
                   <li><a class="dropdown-item" href="#">Pagoh</a></li>
                   <li><a class="dropdown-item" href="#">Parit Jawa</a></li>
+                  <li><a class="dropdown-item" href="#">Bakri</a></li>
+                  <li><a class="dropdown-item" href="#">Parit Bakar</a></li>
                   <li><a class="dropdown-item" href="#">Sungai Balang</a></li>
                   <li><a class="dropdown-item" href="#">Bukit Kepong</a></li>
                   <li><a class="dropdown-item" href="#">Bukit Pasir</a></li>
@@ -299,7 +285,7 @@
           </div>
         </div>
       </nav>
-      <div class="banner" style="min-height:40vh; background-color:coral;">
+      <div class="banner" style="min-height:40vh; background-color:lightsalmon;">
         <div class="word" type="text" style="font-weight:400; font-size:20px; padding: 10px; text-align: center; color: white">
           <h1>Find your table for any occasion</h1>
         </div>
@@ -332,7 +318,7 @@
          <li><a class="dropdown-item" href="#">8:00pm</a></li>
          <li><a class="dropdown-item" href="#">9:00pm</a></li>
         </ul>
-       
+
         <button id="btnGroupDrop3" type="button" class="btn btn-outline-dark dropdown-toggle fa fa-person w-50 mb-3" data-bs-toggle="dropdown" aria-expanded="false">
           Person
         </button>
@@ -344,7 +330,7 @@
          <li><a class="dropdown-item" href="#">14-17 person</a></li>
          <li><a class="dropdown-item" href="#">18-20 person</a></li>
          </ul>
-        
+
         <form class="d-flex w-50">
           <input class="form-control me-2" type="search" placeholder="Search for restaurant" aria-label="Search">
           <button class="btn btn-outline-info w-50" type="submit">Search</button>
@@ -354,65 +340,33 @@
         
      <div class="card-group" style="padding:30px 30px;">
       <div class="card" style="margin-right:20px;border-radius: 15px;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://static5.orstatic.com/userphoto2/photo/2A/1T2O/0CUQZG14A221E1060261A1px.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
+          <h5 class="card-title"><b>Fung Wong Xian Restaurant</b></h5>
+          <p class="card-text"></p>
+          <a href="http://127.0.0.1:5500/product.html" target="_blank">
+            <button class="btn btn-primary">View Detail</button>
+          </a>
         </div>
       </div>
       <div class="card" style="margin-right: 20px;border-radius: 15px;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://lh5.googleusercontent.com/p/AF1QipNtRcN393vXm7v64jwdf7045wKwms94ay6WZQrr=w1080-k-no" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
+          <h5 class="card-title"><b>Pizza Hut Muar</b></h5>
+          <p class="card-text"></p>
+          <a href="http://127.0.0.1:5500/product2.html" target="_blank">
+            <button class="btn btn-primary">View Detail</button>
+          </a>
         </div>
       </div>
       <div class="card" style="border-radius: 15px;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://th.bing.com/th/id/R.12a22015f17bfe42e42da4d78e1f7697?rik=qJKid0SSHKUbsA&riu=http%3a%2f%2ffarm9.staticflickr.com%2f8326%2f8110017547_445998f477_z.jpg&ehk=b6ldQBf04m7s%2bIUZKvvW5nRq9S4VSw2gaabTceA%2fnUQ%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-    </div>
-    <div class="new card-group" style="padding:30px 30px;">
-      <div class="card" style="margin-right:20px;border-radius: 15px;.card:hover{background-color: aqua;}">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-      <div class="card" style="margin-right: 20px;border-radius: 15px;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-      </div>
-      <div class="card" style="border-radius: 15px;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Last updated 3 mins ago</small>
+          <h5 class="card-title"><b>Hai Sing Food Restaurant</b></h5>
+          <p class="card-text"></p>
+          <a href="http://127.0.0.1:5500/product3.html" target="_blank">
+            <button class="btn btn-primary">View Detail</button>
+          </a>
         </div>
       </div>
     </div>
@@ -529,11 +483,11 @@
           </div>
           <div class="footerNav">
             <ul>
-             <li><a href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/Starter.html">Home</a></li>
+             <li><a href="http://127.0.0.1:5500/Starter.html">Home</a></li>
              <li><a href="">News</a></li>
-             <li><a href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/aboutus.html">About</a></li>
+             <li><a href="http://127.0.0.1:5500/aboutus.html">About</a></li>
              <li><a href="">Contact us</a></li>
-             <li><a href="http://127.0.0.1:5500/bootstrap-5.0.2-dist/ourteam.html">Our Team</a></li>
+             <li><a href="http://127.0.0.1:5500/ourteam.html">Our Team</a></li>
              </ul>
           </div>
           <div class="footerBottom">
