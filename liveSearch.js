@@ -9,4 +9,3 @@ name:{
 });
 
 module.exports=mongoose.model('restaurants',restaurantSchema);
-

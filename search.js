@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.static('style.css'));
 
 app.get('/',(req,res)=>{
-    res.sendFile(__dirname+'/Starter.html');
+    res.sendFile(__dirname+'/test.html');
 });
 
 app.post('/getRestaurant',async(req,res)=>{
@@ -34,7 +34,7 @@ app.post('/getRestaurant',async(req,res)=>{
             name: item.name,
             link: `${item.name}.html`
         }))
-    
+
 });
 })
 
@@ -47,4 +47,3 @@ app.get('/:link', (req, res) => {
 app.listen (process.env.PORT||3000,()=>{
   console.log('Server has started on PORT 3000');
 });
- 
